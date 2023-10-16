@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: aliceblue;
+  color: #04000c;
+}
+a {
+  text-decoration: none;
+  color: #0c0025;
+}
+ul {
+  list-style: none;
+}
+header {
+  width: 100vw;
+  height: auto;
+}
+.nav__bar {
+  height: 70px;
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-inline: 4%;
+}
+.nav__bar .nav__left,
+.nav__items,
+.brand {
+  display: flex;
+  align-items: center;
+}
+.nav__bar .nav__left img {
+  height: 50px;
+}
+.nav__bar .brand {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 20px;
+}
+.nav__items .nav__list {
+  padding-inline: 20px;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+.nav__items .nav__list a:hover {
+  color: #52009d;
+}
+
+.nav__bar .nav__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btn {
+  display: inline;
+  padding: 6px 18px;
+  align-items: center;
+  transition: all ease 0.5s;
+}
+.btn__signup {
+  border-radius: 50px;
+  background-color: #bbc2ff;
+}
+.btn__signup:hover {
+  background-color: #8e9aff;
+  color: aliceblue;
+}
+.btn__login:hover {
+  background-color: #bbc2ff;
+  border-radius: 50px;
+}
