@@ -12,14 +12,26 @@ a {
   text-decoration: none;
   color: #0c0025;
 }
-ul {
+/* ul {
   list-style: none;
-}
+} */
 header {
+  position: fixed;
   width: 100vw;
-  height: auto;
+  max-height: 5em;
+  margin: auto;
 }
-.nav__bar {
+.top__nav {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.top__link {
+  padding-inline: 5%;
+}
+/*.nav__bar {
   height: 70px;
   max-width: 1400px;
   margin: auto;
@@ -73,4 +85,4 @@ header {
 .btn__login:hover {
   background-color: #bbc2ff;
   border-radius: 50px;
-}
+} */
